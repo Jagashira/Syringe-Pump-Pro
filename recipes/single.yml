@@ -1,0 +1,7 @@
+# recipes/single.yml
+volumes_uL: [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0] # 体積（0.5 µL 刻み）
+pump:
+  rate_mlh: 0.5 # 流量（mL/h）
+  dispense_dir: INF # 押し出し（INF）方向
+slider:
+  drop_distance_mm: 20 # 針離脱距離（mm）
